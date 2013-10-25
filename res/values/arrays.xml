@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="unit_items"><item>Meter</item>
+<item>Feet</item>
+<item>Inches</item>
+</string-array>
+<string-array name="unit_itemv"><item>m</item>
+<item>ft</item>
+<item>in</item>
+</string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sonar</string>
+
+    <string name="explanations">This sonar sends bursts of short sounds, which get reflected by the object you want to measure. As sound travels at a speed of approximately 330 m/s, the time until the reflection reaches the microphone of your phone can be used to calculate the distance of this object. Currently this is designed to measure objects in the range of about 30cm to 5m.
+    \n\nHowever, there are a few problems to this simple idea, that you have to consider:
+	\n\n<b>1. Your phone may have an unfortunate layout for this kind of measurement</b>
+	\nIn the best case the speaker and the microphone are aligned into the same direction. But the designers of your phone obviously place the microphone near your mouth and a speaker close to your ear or even an additional speaker on the back (for ringtones and music playback). Therefore the reflection of any sound may not reach the microphone directly.
+	\n\n<b>2. Some objects absorb the sound instead of reflecting it</b>
+	\nIt is hard to measure the distance to any \"soft\" objects like a sofa or human beings. Instead measure the distance to hard surfaces like stone walls or windows.
+	\n\n<b>3. You get reflections by many objects</b>
+	\nSound usually travels in every direction, which is good for speakers that are meant to play ringtones. But for a sonar this means, that when targeting a wall, you also get reflections from the floor, the ceiling, another wall nearby, a post and simply from every suitable \"hard\" surface nearby. Therefore this sonar gives you all the reflections and it is up to you to interpret the result and to figure out, which reflection corresponds to the target you intended to measure.
+	\n\nSo start with a nice target (i.e. a plain stone wall), target the speaker of your phone to it and press the \"Ping\" button. It may help to cover your microphone slightly towards the backwards-direction to avoid reflections from there. Also you may check the box in the lower left to maximize your speaker volume on each "Ping", but usually this should not be necessary. Finally note, that you may prefer holding your phone sideways as you get a higher resolution on the result graph.
+	\n\nI hope you like the results and have fun with this app :)
+	\n<b>If you rate this app, please leave a comment reporting your device, so I can figure out which are good for this type of application and which are not.</b> Also, if it does not work for you, please add an explanation to the bad rating ;)
+    </string>
+
+</resources>

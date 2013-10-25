@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/MainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+ 	<com.dicon.sonar.GraphView android:id="@+id/SinglePingSurface" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" />
+	<LinearLayout android:id="@+id/ButtonLayout" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent">
+	<CheckBox android:text="Maximize Volume" android:id="@+id/CheckMaxVol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"></CheckBox>
+		<Button android:text="Ping" android:id="@+id/PingButton" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1"></Button>
+	</LinearLayout>
+</LinearLayout>

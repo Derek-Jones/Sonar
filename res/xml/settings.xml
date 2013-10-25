@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Sonar settings" android:key="sonar_settings">
+<ListPreference android:entryValues="@array/unit_itemv" android:title="Units" android:key="units" android:entries="@array/unit_items" android:summary="Use metric or imperial units..." android:defaultValue="m"></ListPreference>
+<CheckBoxPreference android:summaryOn="Show previous measurements" android:summaryOff="Do not show previous measurements" android:defaultValue="true" android:selectable="true" android:key="show_previous" android:enabled="true" android:title="Show previous"></CheckBoxPreference>
+<CheckBoxPreference android:summaryOff="Send a single group of pings" android:defaultValue="false" android:selectable="true" android:enabled="true" android:summaryOn="Continuously send small groups of pings" android:key="continuous" android:title="Continuous pings"></CheckBoxPreference>
+<CheckBoxPreference android:summaryOff="Use default mic." android:defaultValue="true" android:selectable="true" android:enabled="true" android:summaryOn="Use camcorder mic (if available)" android:key="camMic" android:title="Use camcorder mic"></CheckBoxPreference>
+<EditTextPreference android:key="SoS" android:defaultValue="340" android:summary="In meter per second. Default of 340 should usually give reasonable results." android:title="Speed of sound"></EditTextPreference>
+</PreferenceScreen>
